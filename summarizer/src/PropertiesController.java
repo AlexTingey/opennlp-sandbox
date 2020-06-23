@@ -46,21 +46,4 @@ public class PropertiesController {
 		return prop;
 	}
 	
-//	protected static Properties loadPropertiesTest() {
-//		Properties prop = new Properties();
-//		FileReader stream;
-//		try {
-//			
-//			String propertiesPath = "C:/config/nlp/config.properties";
-//
-//			stream = new FileReader(propertiesPath);
-//			prop.load(stream);
-//			stream.close();
-//			
-//		}
-//		catch(Exception e) {
-//			System.out.println(e.getMessage());
-//		}
-//		return prop;
-//	}
 }
